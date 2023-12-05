@@ -1,0 +1,21 @@
+baseURL = 'https://kyasuda516.github.io/portfolio/'
+languageCode = 'ja'
+title = "Yasuda Kanta's Portfolio Website"
+theme = 'hugo-book'
+
+# config.tomlとドキュメントに書かれていることがあるが、それはHugoの古いバージョンに基づくもの。
+# 今のHugoのデフォルトの設定ファイルはhugo.toml。
+
+# (任意) このテーマはドキュメンテーション用に意図されているため、タクソノミーをレンダリングしません。
+# 関連ファイルを下記の設定で削除できます
+disableKinds = ['taxonomy', 'taxonomyTerm']
+
+[params]
+  # (任意, デフォルトはlight) カラーテーマを設定します: light, dark, または auto。
+  # テーマ'auto'はブラウザ/OSの設定に基づいてダークモードとライトモードを切り替えます
+  BookTheme = 'dark'
+
+# markdownでHTMLタグを使えるように。
+# https://discourse.gohugo.io/t/goldmark-hard-line-breaks-in-a-table-cell/23400/5
+[markup.goldmark.renderer]
+  unsafe = true
