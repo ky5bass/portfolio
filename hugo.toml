@@ -10,10 +10,27 @@ theme = 'hugo-book'
 # 関連ファイルを下記の設定で削除できます
 disableKinds = ['taxonomy', 'taxonomyTerm']
 
+enableGitInfo = true
+
 [params]
   # (任意, デフォルトはlight) カラーテーマを設定します: light, dark, または auto。
   # テーマ'auto'はブラウザ/OSの設定に基づいてダークモードとライトモードを切り替えます
   BookTheme = 'dark'
+
+  # ソースリポジトリの位置を設定します。
+  # 「最終更新日」と「このページを編集」リンクに使用されます。
+  BookRepo = 'https://github.com/kyasuda516/portfolio'
+
+  # 'doc'ページタイプの最後の変更コミットハッシュへのリンクの一部を指定します。
+  # 'BookRepo'パラメータが設定されている場合は必須です。
+  # BookRepo/BookCommitPath/<commit-hash>で構成されるURLを作成するために使用される値です。
+  # Githubでは'commit'、Bitbucketでは'commits'を使用します
+  BookCommitPath = 'commit'
+
+  # (任意, デフォルトはJanuary 2, 2006) ページ上で使用される日付形式を設定します
+  # - git情報において
+  # - ブログ投稿において
+  BookDateFormat = 'Jan 2, 2006'
 
 # markdownでHTMLタグを使えるように。
 # https://discourse.gohugo.io/t/goldmark-hard-line-breaks-in-a-table-cell/23400/5

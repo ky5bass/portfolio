@@ -1,6 +1,5 @@
 +++
 title = 'トップ'
-date = 2023-04-01T00:00:00Z
 draft = false
 +++
 # Yasuda Kanta's Portfolio Website

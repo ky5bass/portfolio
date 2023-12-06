@@ -1,6 +1,6 @@
 +++
 title = '自己紹介'
-date = 2023-12-01T00:00:00Z
+weight = 10
 draft = false
 +++
 # 自己紹介
