@@ -25,8 +25,6 @@ draft = false
 
 ### 使用技術
 
-使用している技術を表にまとめると次のとおりです。
-
 | 分類 | 技術スタック |
 | ----------------- | ------------------------------ |
 | Frontend          | Bootstrap                      |
@@ -39,7 +37,7 @@ draft = false
 | Design            | PowerPoint                     |
 | etc.              | Promtail, Certbot, geoipupdate |
 
-これらの具体的な使用方法につきましては、[週7英単語 サーバ構築手順書](/portfolio/docs/construction-manual/)をご参照いただけると幸いです。
+※技術の具体的な使用方法につきましては、[週7英単語 サーバ構築手順書](/portfolio/docs/construction-manual/)をご参照いただけると幸いです。
 
 ### 制作の背景
 
@@ -85,6 +83,12 @@ Pdf2PptはPDFをPowerPointプレゼンテーションに変換するプログラ
 
 - GitHubリポジトリ: [https://github.com/kyasuda516/pdf2ppt](https://github.com/kyasuda516/pdf2ppt)
 
+### 使用技術
+
+- Python
+- PowerPoint VBA
+- Batch Script
+
 ### 制作の背景
 
 コロナ禍以降、大学の講義資料は紙ではなく電子ファイルとして配布されるのが普通になりました。  
@@ -116,6 +120,11 @@ Notion2QuizPdfは、Notion記事を穴埋め問題ふうのPDFにするための
 そしてQuizPdfは、このプログラムによって書き出したPDFの集合です。
 
 - GitHubリポジトリ: [https://github.com/kyasuda516/quiz-pdf](https://github.com/kyasuda516/quiz-pdf)
+
+### 使用技術
+
+- Python
+- Batch Script
 
 ### 制作の背景
 
