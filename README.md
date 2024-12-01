@@ -2,4 +2,4 @@
 
 こちらはポートフォリオサイト用のリポジトリです。
 
-ポートフォリオサイトのURL: https://kyasuda516.github.io/portfolio/
+ポートフォリオサイトのURL: https://ky5bass.github.io/portfolio/
